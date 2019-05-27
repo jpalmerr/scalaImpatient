@@ -46,5 +46,34 @@ Array(1,2,3).mkString(" | ")
 
 val scores = Map("Alice" -> 10, "Bob" -> 3, "Cindy" -> 8)
 
-import scala.collection.mutable.Map
-Map("Alice" -> 10, "Bob" -> 3, "Cindy" -> 8)
+val mscores = scala.collection.mutable.Map("Alice" -> 10, "Bob" -> 3, "Cindy" -> 8) // for mutable Map
+
+val bobsScore = scores("Bob")
+// get or else avoids empty
+scores.getOrElse("Fred", 0)
+
+// if map is mutable you can assign new
+mscores("Bob") = 7
+mscores -= "Alice"
+mscores
+
+// in Scala you are encouraged to use IMMUTABLE maps
+
+scores + ("Bob" -> 10, "Fred" -> 7)
+scores // note the same
+
+val scores2 = scores + ("Bob" -> 10, "Fred" -> 7)
+
+for ((k, v) <- scores)
+  println(k + " has score " + v)
+
+// Tuples
+
+// Aggregates values of DIFFERENT types -> fixed size
+
+val t = (1, 3.14, "Tuple!")
+val secondIndex = t._2 // 3.14
+val first = t._1 // note not 0 index like arrays
+
+// better to use pattern matching
+val (_, econd, third) = t
