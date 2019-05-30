@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a48e3636-d9c2-45bd-a5b9-544e8fa3a070" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a48e3636-d9c2-45bd-a5b9-544e8fa3a070" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -61,9 +59,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worksheets/learnings/Mixins.sc">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worksheets/learnings/TraitLayers.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -88,6 +99,8 @@
         <option value="$PROJECT_DIR$/worksheets/labs/Lab4UniformAccess.sc" />
         <option value="$PROJECT_DIR$/worksheets/labs/Lab4Operators.sc" />
         <option value="$PROJECT_DIR$/worksheets/learnings/Traits.sc" />
+        <option value="$PROJECT_DIR$/worksheets/learnings/Mixins.sc" />
+        <option value="$PROJECT_DIR$/worksheets/learnings/TraitLayers.sc" />
       </list>
     </option>
   </component>
@@ -196,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558991629250</updated>
-      <workItem from="1558991637052" duration="8012000" />
+      <workItem from="1558991637052" duration="8769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8012000" />
+    <option name="totallyTimeSpent" value="8769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -307,7 +320,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worksheets/learnings/Mixins.sc">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksheets/learnings/TraitLayers.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
