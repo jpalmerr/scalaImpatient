@@ -31,9 +31,9 @@ valueAtOneQuarter(triple)
 
 // a function can produce another function
 
-def nulBy(factor: Double) = (x: Double) => factor * x
-nulBy(3)
-val quintuple = nulBy(5)
+def mulBy(factor: Double) = (x: Double) => factor * x
+mulBy(3)
+val quintuple = mulBy(5)
 quintuple(20)
 
 // scala can deduce types => don't always need :Double
