@@ -12,3 +12,11 @@ def price(it: Item) : Double = it match {
 
 price(book)
 price(gift)
+
+/* abstract class can't be instantiated
+ ie you can't actually have create one
+ think of: pet
+ you have an animal which is a pet
+ => pet is abstract class
+ => dog, cat, hamster... extends pet
+ */
